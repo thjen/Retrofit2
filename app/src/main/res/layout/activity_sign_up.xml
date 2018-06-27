@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context="qthjen_dev.io.retrofitdemo.View.MainActivity">
+
+    <TextView
+        android:id="@+id/tvTemp3"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Sign up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/pickImage"
+        android:layout_below="@+id/tvTemp3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <EditText
+        android:id="@+id/emailSu"
+        android:paddingLeft="15dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#FFFFFF"
+        android:hint="Email"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/pickImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/passSu"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#FFFFFF"
+        android:hint="Password"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/emailSu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btSignUp"
+        android:textColor="#101010"
+        android:textAllCaps="false"
+        android:text="Sign up"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/passSu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btCancel"
+        android:textColor="#101010"
+        android:textAllCaps="false"
+        android:text="Cancel"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/btSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
